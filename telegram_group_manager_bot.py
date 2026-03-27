@@ -44,8 +44,8 @@ logging.basicConfig(
 logger = logging.getLogger("NexusBot")
 
 # ─── Config ───────────────────────────────────────────────────────────────────
-BOT_TOKEN       = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-OWNER_IDS       = [int(x) for x in os.environ.get("OWNER_IDS", "").split(",") if x.strip().isdigit()]
+BOT_TOKEN       = os.environ.get("8159930920:AAGS4XWy9Fslq0RnRvFvx6QNTg9eTT5AqOo", "")
+OWNER_IDS       = [int(x) for x in os.environ.get("7012373095", "").split(",") if x.strip().isdigit()]
 LOG_CHANNEL     = int(os.environ.get("LOG_CHANNEL_ID", "0") or 0)
 GBAN_LOG        = int(os.environ.get("GBAN_LOG_CHANNEL", "0") or 0)
 DB_PATH         = os.environ.get("DB_PATH", "bot_data.db")
